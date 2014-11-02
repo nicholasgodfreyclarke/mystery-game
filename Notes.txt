@@ -27,7 +27,13 @@ backstory - affectation
 music
 conversation starters
 
-
-
++roles:
++detective - discover informations
++jester - chaos (stop everyone winning)
++robot
++hacker - spy on private info (messages)
++spy 1 - tranmit info to spy 2
++spy 2 - obtain info from spy 1
++terrorist - plant bomb - blows at end of game (opposite is detective)
 
 
