@@ -37,7 +37,7 @@ if (Meteor.isServer) {
     Meteor.onConnection(function(conn) {
 
       var player_id
-      // Get user's ip address - to assign roles later.
+      // Get user's ip address - to assign roles later
       player_id = conn.clientAddress;
 
       // If player ip does not exist in collection, insert it - ignore local host
