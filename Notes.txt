@@ -6,14 +6,10 @@ story
 
 roles have distinct actions, distinct information
 
-roles:
-detective - discover informations
-jester - chaos (stop everyone winning)
-robot
-hacker - spy on private info (messages)
-spy 1 - tranmit info to spy 2
-spy 2 - obtain info from spy 1
-terrorist - plant bomb - blows at end of game (opposite is detective)
+rather than having specific roles, taking advantage of the real time, free form aspect of the platform,
+by perhaps having varying tasks and available information / interaction at a given time for different player.
+Still keeping clear cut goals but focusing on developing a system of conflicating / overlapping goals
+for generating interesting interactions. Maybe assign role names to the goals themselves.
 
 actions:
 transfer info - password (detect vs transfer)
@@ -25,12 +21,19 @@ passphrases - identify allies
 
 two players can pass info - restricted info
 public info - anonymous - delayed message
+location based effects 
 
 backstory - affectation
 music
 conversation starters
 
-
-
++roles:
++detective - discover informations
++jester - chaos (stop everyone winning)
++robot
++hacker - spy on private info (messages)
++spy 1 - tranmit info to spy 2
++spy 2 - obtain info from spy 1
++terrorist - plant bomb - blows at end of game (opposite is detective)
 
 
