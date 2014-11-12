@@ -58,5 +58,34 @@ if (Meteor.isServer) {
 
     });
 
+  pair_players()
+
   });
+}
+
+
+var pair_players = function() {
+  var fake_ips = 
+  [ {id:"1", receiver: "", giver: "" },
+    {id:"2", receiver: "", giver: "" },
+    {id:"3", receiver: "", giver: "" },
+    {id:"4", receiver: "", giver: "" } ]
+
+  for (var i = 0; i < fake_ips.length; i++) {
+    
+    var remaining_receivers = fake_ips.filter(function(x){
+      return x.giver === "" && x["id"] != fake_ips[i]["id"]})
+    var remaining_givers = fake_ips.filter(function(x){
+      return x.receiver === "" && x["id"] != fake_ips[i]["id"]})
+
+    // console.log(remaining_receivers)
+    // console.log(Math.floor(Math.random() * (remaining_receivers.length-1)))
+    fake_ips[i].receiver = remaining_receivers[Math.floor(Math.random() * (remaining_receivers.length-1))].id
+
+
+
+  };
+
+  console.log(fake_ips)
+
 }
